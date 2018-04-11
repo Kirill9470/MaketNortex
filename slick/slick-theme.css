@@ -129,6 +129,11 @@
 
     text-align: center;
 }
+@media screen and (max-width: 760px){
+	.slick-dots{
+		bottom:40px;
+	}
+}
 .slick-dots li
 {
     position: relative;
@@ -213,6 +218,11 @@
 {
     opacity: .75;
     color: black;
+}
+.slick-dots li.slick-active{
+	border: 1px dashed #eb2256;
+    color: #eb2256;
+    border-radius: 20px;
 }
 .slick-dots li a{
   position: absolute;
